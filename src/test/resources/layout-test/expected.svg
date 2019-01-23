@@ -1,0 +1,52 @@
+<svg width="737pt" height="206pt"
+ viewBox="0.00 0.00 736.84 206.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 202)">
+<title>example</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-202 732.839,-202 732.839,4 -4,4"/>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT -->
+<g id="node1" class="node"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</title>
+<ellipse fill="none" stroke="black" cx="193.033" cy="-99" rx="193.066" ry="18"/>
+<text text-anchor="middle" x="193.033" y="-95.3" font-family="Times New Roman,serif" font-size="14.00">com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</text>
+</g>
+<!-- org.apache.maven:maven&#45;model:3.6.0 -->
+<g id="node2" class="node"><title>org.apache.maven:maven&#45;model:3.6.0</title>
+<ellipse fill="none" stroke="black" cx="575.452" cy="-180" rx="147.574" ry="18"/>
+<text text-anchor="middle" x="575.452" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">org.apache.maven:maven&#45;model:3.6.0</text>
+</g>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.apache.maven:maven&#45;model:3.6.0 -->
+<g id="edge1" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.apache.maven:maven&#45;model:3.6.0</title>
+<path fill="none" stroke="black" d="M261.159,-115.962C306.463,-127.147 367.683,-141.753 422.066,-153 440.02,-156.713 459.229,-160.365 477.749,-163.725"/>
+<polygon fill="black" stroke="black" points="477.195,-167.181 487.656,-165.506 478.434,-160.292 477.195,-167.181"/>
+</g>
+<!-- org.codehaus.plexus:plexus&#45;utils:3.1.0 -->
+<g id="node3" class="node"><title>org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
+<ellipse fill="none" stroke="black" cx="575.452" cy="-126" rx="148.674" ry="18"/>
+<text text-anchor="middle" x="575.452" y="-122.3" font-family="Times New Roman,serif" font-size="14.00">org.codehaus.plexus:plexus&#45;utils:3.1.0</text>
+</g>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0 -->
+<g id="edge2" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
+<path fill="none" stroke="black" d="M347.12,-109.865C376.669,-111.963 407.463,-114.148 436.496,-116.209"/>
+<polygon fill="black" stroke="black" points="436.464,-119.715 446.687,-116.932 436.96,-112.733 436.464,-119.715"/>
+</g>
+<!-- org.projectlombok:lombok:1.18.4 -->
+<g id="node4" class="node"><title>org.projectlombok:lombok:1.18.4</title>
+<ellipse fill="none" stroke="black" cx="575.452" cy="-72" rx="132.677" ry="18"/>
+<text text-anchor="middle" x="575.452" y="-68.3" font-family="Times New Roman,serif" font-size="14.00">org.projectlombok:lombok:1.18.4</text>
+</g>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.projectlombok:lombok:1.18.4 -->
+<g id="edge3" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.projectlombok:lombok:1.18.4</title>
+<path fill="none" stroke="black" d="M347.12,-88.1348C380.374,-85.7746 415.204,-83.3026 447.326,-81.0227"/>
+<polygon fill="black" stroke="black" points="447.928,-84.4889 457.655,-80.2896 447.432,-77.5064 447.928,-84.4889"/>
+</g>
+<!-- org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2 -->
+<g id="node5" class="node"><title>org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
+<ellipse fill="none" stroke="black" cx="575.452" cy="-18" rx="153.273" ry="18"/>
+<text text-anchor="middle" x="575.452" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</text>
+</g>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2 -->
+<g id="edge4" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
+<path fill="none" stroke="black" d="M261.159,-82.0379C306.463,-70.8529 367.683,-56.2473 422.066,-45 439.604,-41.3728 458.34,-37.804 476.461,-34.5091"/>
+<polygon fill="black" stroke="black" points="477.234,-37.9264 486.454,-32.7081 475.992,-31.0374 477.234,-37.9264"/>
+</g>
+</g>
+</svg>
