@@ -64,4 +64,24 @@ class MavenDependencyMapperTest extends MavenDependencyMapper {
 		assertTrue(list.isEmpty());
 
 	}
+
+	@Test
+	void 親子関係のPomも正しくマップできる() throws Exception {
+		Path path = FileSystems.getDefault().getPath("src", "test", "resources", "parent-child", "pom.xml");
+		Model model;
+        try (Reader source = new InputStreamReader(new FileInputStream(path.toFile()))){
+            var reader = new MavenXpp3Reader();
+            model = reader.read(source);
+        } catch (Exception e) {
+        	throw e;
+		}
+        
+        MavenDependencyMapper mapper = new MavenDependencyMapper();
+        var list = mapper.mapToDependencyRelations(model);
+
+        assertEquals(1, list.size());
+        assertThat(list, hasItem(new DependencyRelation(new ProjectModel("org.sample", "sample", "1.0"),
+        												  new ProjectModel("org.apache.maven", "maven-model", "3.6.0"))));
+
+	}
 }

@@ -41,7 +41,15 @@ public class MavenDependencyMapper {
 	 * @return プロジェクトモデル
 	 */
 	private ProjectModel mapPomToProjectModel(Model pom) {
-		return new ProjectModel(pom.getGroupId(), pom.getArtifactId(), pom.getVersion());
+		String groupId = pom.getGroupId();
+		if (groupId == null) {
+			groupId = pom.getParent().getGroupId();
+		}
+		String version = pom.getVersion();
+		if (version == null) {
+			version = pom.getParent().getVersion();
+		}
+		return new ProjectModel(groupId, pom.getArtifactId(), version);
 	}
 
 	/**

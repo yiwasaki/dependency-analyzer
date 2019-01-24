@@ -53,7 +53,6 @@ public class GraphLayout {
 			 // 意図的にマップを上書きすることで、情報をアップデートする
 			 nodeMap.put(edge.getFrom().toString(), node);
 		}
-
 		return nodeMap.values();
 	}
 
