@@ -1,0 +1,20 @@
+<project>
+  <!-- ここで親プロジェクトを指定 -->
+  <parent>
+    <groupId>org.sample</groupId>
+    <artifactId>parent-sample</artifactId>
+    <version>1.0</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>sample</artifactId>
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-model -->
+	<dependency>
+	    <groupId>org.apache.maven</groupId>
+	    <artifactId>maven-model</artifactId>
+	    <version>3.6.0</version>
+	</dependency>
+
+  </dependencies>
+</project>

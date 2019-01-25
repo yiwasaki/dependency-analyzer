@@ -42,11 +42,11 @@ public class MavenDependencyMapper {
 	 */
 	private ProjectModel mapPomToProjectModel(Model pom) {
 		String groupId = pom.getGroupId();
-		if (groupId == null) {
+		if (groupId == null && pom.getParent() != null) {
 			groupId = pom.getParent().getGroupId();
 		}
 		String version = pom.getVersion();
-		if (version == null) {
+		if (version == null && pom.getParent() != null) {
 			version = pom.getParent().getVersion();
 		}
 		return new ProjectModel(groupId, pom.getArtifactId(), version);

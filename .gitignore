@@ -3,3 +3,4 @@
 /.classpath
 /.project
 /.tracecompass
+src/test/resources/target/
