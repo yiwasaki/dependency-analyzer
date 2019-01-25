@@ -3,10 +3,11 @@ package com.iboy.dependency;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import com.iboy.dependency.analysis.MavenAnalyzer;
 import com.iboy.dependency.graph.DependencyGraph;
@@ -15,6 +16,17 @@ import com.iboy.dependency.model.DependencyRelation;
 
 
 public class DependencyAnalyzer {
+
+	/**
+	 * {@link DependencyAnalyzer#analyze(Path, Path, Predicate)}を参照.
+	 *
+	 * @param inputDir 解析対象のディレクトリ
+	 * @param output 解析結果ファイル
+	 * @throws IOException ファイル操作中に例外が発生した場合
+	 */
+	public void analyze(Path inputDir, Path output) throws IOException {
+		this.analyze(inputDir, output, r -> true);
+	}
 
 	/**
 	 * パッケージマネージャによる依存関係を解析する.
@@ -27,10 +39,11 @@ public class DependencyAnalyzer {
 	 *
 	 * @param inputDir 解析対象のディレクトリ
 	 * @param output 解析結果ファイル
+	 * @param filer 解析結果のフィルター
 	 * @throws IOException ファイル操作中に例外が発生した場合
 	 */
-	public void analyze(Path inputDir, Path output) throws IOException {
-		List<DependencyRelation> relations = new ArrayList<>();
+	public void analyze(Path inputDir, Path output, Predicate<DependencyRelation> filter) throws IOException {
+		Set<DependencyRelation> relations = new HashSet<>();
 
 		Set<Path> targetFiles = findAllTargetFiles(inputDir, "pom.xml");
 		MavenAnalyzer ma = new MavenAnalyzer();
@@ -40,7 +53,13 @@ public class DependencyAnalyzer {
 
 		// TODO: Gradleの解析を行う場合は、ここでrelationsにaddする
 
-		DependencyGraph dg = new DependencyGraph(relations);
+
+
+		List<DependencyRelation> filteredRelations = relations.stream()
+															  .filter(relation -> filter.test(relation))
+															  .collect(Collectors.toList());
+
+		DependencyGraph dg = new DependencyGraph(filteredRelations);
 		GraphLayout layout = new GraphLayout();
 		layout.layout(output, dg);
 	}
