@@ -1,7 +1,5 @@
 package com.iboy.dependency.analysis.mapper;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.FileInputStream;
@@ -35,7 +33,7 @@ class MavenDependencyMapperTest extends MavenDependencyMapper {
         MavenDependencyMapper mapper = new MavenDependencyMapper();
         var list = mapper.mapToDependencyRelations(model);
 
-        assertThat(list.size(), is(4));
+        assertEquals(list.size(), 4);
 
         var expected = List.of(new DependencyRelation(new ProjectModel("com.iboy", "dependency-analysis", "0.0.1-SNAPSHOT"), new ProjectModel("org.apache.maven", "maven-model", "3.6.0")),
         		                new DependencyRelation(new ProjectModel("com.iboy", "dependency-analysis", "0.0.1-SNAPSHOT"), new ProjectModel("org.codehaus.plexus", "plexus-utils", "3.1.0")),
@@ -80,8 +78,9 @@ class MavenDependencyMapperTest extends MavenDependencyMapper {
         var list = mapper.mapToDependencyRelations(model);
 
         assertEquals(1, list.size());
-        assertThat(list, hasItem(new DependencyRelation(new ProjectModel("org.sample", "sample", "1.0"),
-        												  new ProjectModel("org.apache.maven", "maven-model", "3.6.0"))));
+        List<DependencyRelation> expected = List.of(new DependencyRelation(new ProjectModel("org.sample", "sample", "1.0"),
+        																	new ProjectModel("org.apache.maven", "maven-model", "3.6.0")));
+        assertIterableEquals(list, expected);
 
 	}
 }

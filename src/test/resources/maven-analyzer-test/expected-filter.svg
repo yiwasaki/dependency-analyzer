@@ -1,117 +1,151 @@
-<svg width="812pt" height="422pt"
- viewBox="0.00 0.00 812.23 422.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 418)">
+<svg width="866pt" height="476pt"
+ viewBox="0.00 0.00 866.42 476.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
 <title>example</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-418 808.232,-418 808.232,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-472 862.4166,-472 862.4166,4 -4,4"/>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT -->
-<g id="node1" class="node"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</title>
-<ellipse fill="none" stroke="black" cx="193.033" cy="-315" rx="193.066" ry="18"/>
-<text text-anchor="middle" x="193.033" y="-311.3" font-family="Times New Roman,serif" font-size="14.00">com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</text>
+<g id="node1" class="node">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</title>
+<ellipse fill="none" stroke="#000000" cx="205.4743" cy="-369" rx="205.4485" ry="18"/>
+<text text-anchor="middle" x="205.4743" y="-364.8" font-family="Times,serif" font-size="14.00" fill="#000000">com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT</text>
 </g>
 <!-- org.projectlombok:lombok:1.18.4 -->
-<g id="node2" class="node"><title>org.projectlombok:lombok:1.18.4</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-288" rx="132.677" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-284.3" font-family="Times New Roman,serif" font-size="14.00">org.projectlombok:lombok:1.18.4</text>
+<g id="node2" class="node">
+<title>org.projectlombok:lombok:1.18.4</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-396" rx="141.8283" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-391.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.projectlombok:lombok:1.18.4</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.projectlombok:lombok:1.18.4 -->
-<g id="edge1" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.projectlombok:lombok:1.18.4</title>
-<path fill="none" stroke="black" d="M352.105,-304.792C395.26,-302.006 441.503,-299.02 482.849,-296.35"/>
-<polygon fill="black" stroke="black" points="483.218,-299.833 492.972,-295.696 482.767,-292.848 483.218,-299.833"/>
+<g id="edge1" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.projectlombok:lombok:1.18.4</title>
+<path fill="none" stroke="#000000" d="M374.8633,-379.2268C420.9637,-382.0101 470.3358,-384.9909 514.4814,-387.6562"/>
+<polygon fill="#000000" stroke="#000000" points="514.5056,-391.1639 524.6984,-388.273 514.9276,-384.1766 514.5056,-391.1639"/>
 </g>
 <!-- org.apache.maven:maven&#45;model:3.6.0 -->
-<g id="node3" class="node"><title>org.apache.maven:maven&#45;model:3.6.0</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-234" rx="147.574" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">org.apache.maven:maven&#45;model:3.6.0</text>
+<g id="node3" class="node">
+<title>org.apache.maven:maven&#45;model:3.6.0</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-342" rx="159.1221" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-337.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.apache.maven:maven&#45;model:3.6.0</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.apache.maven:maven&#45;model:3.6.0 -->
-<g id="edge2" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.apache.maven:maven&#45;model:3.6.0</title>
-<path fill="none" stroke="black" d="M258.568,-298.053C304.047,-286.52 366.499,-271.503 422.066,-261 446.932,-256.3 473.767,-252.013 499.217,-248.307"/>
-<polygon fill="black" stroke="black" points="499.87,-251.75 509.27,-246.863 498.874,-244.821 499.87,-251.75"/>
+<g id="edge2" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.apache.maven:maven&#45;model:3.6.0</title>
+<path fill="none" stroke="#000000" d="M374.8633,-358.7732C416.6585,-356.2498 461.143,-353.5641 501.9839,-351.0984"/>
+<polygon fill="#000000" stroke="#000000" points="502.2375,-354.5895 512.0083,-350.4931 501.8155,-347.6022 502.2375,-354.5895"/>
 </g>
 <!-- org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2 -->
-<g id="node4" class="node"><title>org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-396" rx="153.273" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-392.3" font-family="Times New Roman,serif" font-size="14.00">org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</text>
+<g id="node4" class="node">
+<title>org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-288" rx="171.3497" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-283.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2 -->
-<g id="edge3" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
-<path fill="none" stroke="black" d="M258.568,-331.947C304.047,-343.48 366.499,-358.497 422.066,-369 446.246,-373.57 472.288,-377.75 497.108,-381.385"/>
-<polygon fill="black" stroke="black" points="496.891,-384.89 507.289,-382.855 497.892,-377.962 496.891,-384.89"/>
+<g id="edge3" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
+<path fill="none" stroke="#000000" d="M273.8417,-351.9957C322.014,-340.4363 388.1514,-325.4109 446.9485,-315 472.7407,-310.4331 500.4784,-306.2823 526.9757,-302.6797"/>
+<polygon fill="#000000" stroke="#000000" points="527.618,-306.125 537.0637,-301.3261 526.687,-299.1871 527.618,-306.125"/>
 </g>
 <!-- org.codehaus.plexus:plexus&#45;utils:3.1.0 -->
-<g id="node5" class="node"><title>org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-342" rx="148.674" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-338.3" font-family="Times New Roman,serif" font-size="14.00">org.codehaus.plexus:plexus&#45;utils:3.1.0</text>
+<g id="node5" class="node">
+<title>org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-450" rx="159.7405" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.codehaus.plexus:plexus&#45;utils:3.1.0</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0 -->
-<g id="edge4" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
-<path fill="none" stroke="black" d="M352.105,-325.208C391.271,-327.737 432.981,-330.43 471.265,-332.902"/>
-<polygon fill="black" stroke="black" points="471.237,-336.408 481.442,-333.56 471.689,-329.422 471.237,-336.408"/>
+<g id="edge4" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;SNAPSHOT&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
+<path fill="none" stroke="#000000" d="M273.8417,-386.0043C322.014,-397.5637 388.1514,-412.5891 446.9485,-423 473.8811,-427.7688 502.935,-432.0839 530.4828,-435.7949"/>
+<polygon fill="#000000" stroke="#000000" points="530.183,-439.2858 540.5572,-437.1346 531.1058,-432.3469 530.183,-439.2858"/>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1 -->
-<g id="node6" class="node"><title>com.iboy:dependency&#45;analysis:0.0.1</title>
-<ellipse fill="none" stroke="black" cx="193.033" cy="-207" rx="142.175" ry="18"/>
-<text text-anchor="middle" x="193.033" y="-203.3" font-family="Times New Roman,serif" font-size="14.00">com.iboy:dependency&#45;analysis:0.0.1</text>
+<g id="node6" class="node">
+<title>com.iboy:dependency&#45;analysis:0.0.1</title>
+<ellipse fill="none" stroke="#000000" cx="205.4743" cy="-234" rx="152.2396" ry="18"/>
+<text text-anchor="middle" x="205.4743" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">com.iboy:dependency&#45;analysis:0.0.1</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.projectlombok:lombok:1.18.4 -->
-<g id="edge12" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.projectlombok:lombok:1.18.4</title>
-<path fill="none" stroke="black" d="M255.647,-223.205C301.348,-234.829 365.3,-250.27 422.066,-261 448.639,-266.023 477.461,-270.574 504.438,-274.448"/>
-<polygon fill="black" stroke="black" points="504.286,-277.961 514.679,-275.899 505.269,-271.03 504.286,-277.961"/>
+<g id="edge13" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.projectlombok:lombok:1.18.4</title>
+<path fill="none" stroke="#000000" d="M243.218,-251.5871C285.2118,-271.6651 354.5714,-306.362 410.9485,-342 427.854,-352.6866 428.4276,-361.4518 446.9485,-369 467.3629,-377.3198 489.7732,-383.2049 512.0589,-387.3438"/>
+<polygon fill="#000000" stroke="#000000" points="511.4844,-390.7964 521.9374,-389.0688 512.6885,-383.9007 511.4844,-390.7964"/>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.maven:maven&#45;model:3.6.0 -->
-<g id="edge11" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.maven:maven&#45;model:3.6.0</title>
-<path fill="none" stroke="black" d="M320.048,-215.138C368.076,-218.239 423.086,-221.791 472.321,-224.971"/>
-<polygon fill="black" stroke="black" points="472.205,-228.47 482.41,-225.622 472.657,-221.485 472.205,-228.47"/>
+<g id="edge12" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.maven:maven&#45;model:3.6.0</title>
+<path fill="none" stroke="#000000" d="M248.806,-251.3705C296.5798,-269.8489 376.0766,-298.6248 446.9485,-315 471.1177,-320.5844 497.1698,-325.118 522.3433,-328.7622"/>
+<polygon fill="#000000" stroke="#000000" points="521.9248,-332.2377 532.3152,-330.1667 522.9011,-325.3061 521.9248,-332.2377"/>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2 -->
-<g id="edge5" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
-<path fill="none" stroke="black" d="M263.86,-222.75C303.87,-234.841 352.618,-255.184 386.066,-288 414.187,-315.59 390.628,-345.258 422.066,-369 432.452,-376.844 444.091,-382.923 456.361,-387.593"/>
-<polygon fill="black" stroke="black" points="455.261,-390.916 465.856,-390.896 457.561,-384.305 455.261,-390.916"/>
+<g id="edge5" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;engine:5.0.2</title>
+<path fill="none" stroke="#000000" d="M312.3076,-246.9C377.8142,-254.8099 461.9064,-264.9639 530.1154,-273.2001"/>
+<polygon fill="#000000" stroke="#000000" points="529.7122,-276.6768 540.0597,-274.4009 530.5515,-269.7273 529.7122,-276.6768"/>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0 -->
-<g id="edge9" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
-<path fill="none" stroke="black" d="M243.338,-223.993C283.086,-238.579 339.785,-261.42 386.066,-288 403.409,-297.961 403.585,-307.354 422.066,-315 438.568,-321.828 456.488,-326.98 474.511,-330.859"/>
-<polygon fill="black" stroke="black" points="474.03,-334.333 484.525,-332.886 475.418,-327.472 474.03,-334.333"/>
+<g id="edge10" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.codehaus.plexus:plexus&#45;utils:3.1.0</title>
+<path fill="none" stroke="#000000" d="M259.3756,-251.0175C304.9173,-267.7912 369.2177,-297.4331 410.9485,-342 437.8753,-370.7567 415.3857,-399.4249 446.9485,-423 458.7322,-431.8016 471.9902,-438.4825 485.9525,-443.4952"/>
+<polygon fill="#000000" stroke="#000000" points="485.1289,-446.9086 495.7218,-446.7047 487.3137,-440.2583 485.1289,-446.9086"/>
 </g>
 <!-- org.springframework:spring&#45;web:5.1.3.RELEASE -->
-<g id="node7" class="node"><title>org.springframework:spring&#45;web:5.1.3.RELEASE</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-180" rx="191.166" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">org.springframework:spring&#45;web:5.1.3.RELEASE</text>
+<g id="node7" class="node">
+<title>org.springframework:spring&#45;web:5.1.3.RELEASE</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-126" rx="205.9683" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-121.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.springframework:spring&#45;web:5.1.3.RELEASE</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.springframework:spring&#45;web:5.1.3.RELEASE -->
-<g id="edge6" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.springframework:spring&#45;web:5.1.3.RELEASE</title>
-<path fill="none" stroke="black" d="M320.048,-198.862C359.255,-196.331 403.115,-193.498 444.688,-190.814"/>
-<polygon fill="black" stroke="black" points="445.168,-194.29 454.921,-190.153 444.716,-187.305 445.168,-194.29"/>
+<g id="edge6" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.springframework:spring&#45;web:5.1.3.RELEASE</title>
+<path fill="none" stroke="#000000" d="M248.806,-216.6295C296.5798,-198.1511 376.0766,-169.3752 446.9485,-153 466.8711,-148.3968 488.0732,-144.5076 509.0079,-141.2419"/>
+<polygon fill="#000000" stroke="#000000" points="509.5661,-144.6974 518.928,-139.7369 508.5161,-137.7766 509.5661,-144.6974"/>
+</g>
+<!-- org.junit.jupiter:junit&#45;jupiter&#45;api:5.3.2 -->
+<g id="node8" class="node">
+<title>org.junit.jupiter:junit&#45;jupiter&#45;api:5.3.2</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-72" rx="157.4624" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-67.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.junit.jupiter:junit&#45;jupiter&#45;api:5.3.2</text>
+</g>
+<!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;api:5.3.2 -->
+<g id="edge7" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.junit.jupiter:junit&#45;jupiter&#45;api:5.3.2</title>
+<path fill="none" stroke="#000000" d="M230.0651,-216.0246C272.1456,-186.2701 361.6968,-127.2642 446.9485,-99 467.1121,-92.315 488.9027,-87.2771 510.5007,-83.4822"/>
+<polygon fill="#000000" stroke="#000000" points="511.1191,-86.9275 520.4041,-81.8247 509.9635,-80.0236 511.1191,-86.9275"/>
 </g>
 <!-- org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1 -->
-<g id="node8" class="node"><title>org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-126" rx="180.068" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-122.3" font-family="Times New Roman,serif" font-size="14.00">org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</text>
+<g id="node9" class="node">
+<title>org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-18" rx="197.9667" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1 -->
-<g id="edge7" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</title>
-<path fill="none" stroke="black" d="M255.647,-190.795C301.348,-179.171 365.3,-163.73 422.066,-153 444.176,-148.821 467.844,-144.968 490.711,-141.56"/>
-<polygon fill="black" stroke="black" points="491.417,-144.994 500.802,-140.077 490.399,-138.069 491.417,-144.994"/>
+<g id="edge8" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;slf4j&#45;impl:2.11.1</title>
+<path fill="none" stroke="#000000" d="M221.8004,-215.8669C257.993,-177.0004 349.5042,-85.8884 446.9485,-45 459.9036,-39.5639 473.6862,-35.1576 487.7436,-31.5933"/>
+<polygon fill="#000000" stroke="#000000" points="488.6005,-34.9871 497.5127,-29.2579 486.9729,-28.179 488.6005,-34.9871"/>
 </g>
 <!-- org.apache.logging.log4j:log4j&#45;core:2.11.1 -->
-<g id="node9" class="node"><title>org.apache.logging.log4j:log4j&#45;core:2.11.1</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-72" rx="162.471" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-68.3" font-family="Times New Roman,serif" font-size="14.00">org.apache.logging.log4j:log4j&#45;core:2.11.1</text>
+<g id="node10" class="node">
+<title>org.apache.logging.log4j:log4j&#45;core:2.11.1</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-234" rx="176.5223" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">org.apache.logging.log4j:log4j&#45;core:2.11.1</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;core:2.11.1 -->
-<g id="edge8" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;core:2.11.1</title>
-<path fill="none" stroke="black" d="M223.843,-189.276C266.314,-164.878 347.387,-121.424 422.066,-99 440.568,-93.4442 460.436,-89.0202 480.102,-85.5002"/>
-<polygon fill="black" stroke="black" points="480.781,-88.9347 490.045,-83.7924 479.596,-82.0358 480.781,-88.9347"/>
+<g id="edge9" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;org.apache.logging.log4j:log4j&#45;core:2.11.1</title>
+<path fill="none" stroke="#000000" d="M358.1272,-234C392.8204,-234 430.0557,-234 465.9838,-234"/>
+<polygon fill="#000000" stroke="#000000" points="466.0795,-237.5001 476.0795,-234 466.0794,-230.5001 466.0795,-237.5001"/>
 </g>
 <!-- guru.nidi:graphviz&#45;java:0.7.1 -->
-<g id="node10" class="node"><title>guru.nidi:graphviz&#45;java:0.7.1</title>
-<ellipse fill="none" stroke="black" cx="613.149" cy="-18" rx="112.38" ry="18"/>
-<text text-anchor="middle" x="613.149" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">guru.nidi:graphviz&#45;java:0.7.1</text>
+<g id="node11" class="node">
+<title>guru.nidi:graphviz&#45;java:0.7.1</title>
+<ellipse fill="none" stroke="#000000" cx="652.6825" cy="-180" rx="123.8852" ry="18"/>
+<text text-anchor="middle" x="652.6825" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">guru.nidi:graphviz&#45;java:0.7.1</text>
 </g>
 <!-- com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;guru.nidi:graphviz&#45;java:0.7.1 -->
-<g id="edge10" class="edge"><title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;guru.nidi:graphviz&#45;java:0.7.1</title>
-<path fill="none" stroke="black" d="M212.564,-188.97C249.165,-154.547 334.78,-79.8018 422.066,-45 445.436,-35.6822 471.549,-29.5118 496.757,-25.4428"/>
-<polygon fill="black" stroke="black" points="497.376,-28.8891 506.739,-23.9311 496.327,-21.968 497.376,-28.8891"/>
+<g id="edge11" class="edge">
+<title>com.iboy:dependency&#45;analysis:0.0.1&#45;&gt;guru.nidi:graphviz&#45;java:0.7.1</title>
+<path fill="none" stroke="#000000" d="M312.3076,-221.1C383.3552,-212.521 476.2655,-201.3022 547.0624,-192.7535"/>
+<polygon fill="#000000" stroke="#000000" points="547.8338,-196.1859 557.3421,-191.5123 546.9946,-189.2364 547.8338,-196.1859"/>
 </g>
 </g>
 </svg>
