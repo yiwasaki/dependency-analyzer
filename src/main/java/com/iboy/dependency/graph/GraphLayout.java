@@ -12,7 +12,7 @@ import com.iboy.dependency.model.DependencyRelation;
 import guru.nidi.graphviz.attribute.RankDir;
 import guru.nidi.graphviz.engine.Format;
 import guru.nidi.graphviz.engine.Graphviz;
-import guru.nidi.graphviz.engine.GraphvizCmdLineEngine;
+import guru.nidi.graphviz.engine.GraphvizJdkEngine;
 import guru.nidi.graphviz.model.Factory;
 import guru.nidi.graphviz.model.Graph;
 import guru.nidi.graphviz.model.Node;
@@ -25,7 +25,7 @@ public class GraphLayout {
 						        .with(
 						        	nodes.toArray(new Node[1])
 						        );
-		Graphviz.useEngine(List.of(new GraphvizCmdLineEngine()));
+		Graphviz.useEngine(List.of(new GraphvizJdkEngine()));
 
 		// TODO: PNGで出力しようとするとライブラリ側の問題でうまく処理できない。
 		Graphviz.fromGraph(graph).height(100).render(Format.SVG).toFile(outputPath.toFile());

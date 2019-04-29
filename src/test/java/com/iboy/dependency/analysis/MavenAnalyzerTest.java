@@ -1,7 +1,5 @@
 package com.iboy.dependency.analysis;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.net.MalformedURLException;
@@ -9,6 +7,7 @@ import java.net.URI;
 import java.net.URL;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -93,16 +92,17 @@ class MavenAnalyzerTest extends MavenAnalyzer {
 
 		assertEquals(relations.size(), 10);
 		List<ProjectModel> to = relations.stream().map(r -> r.getTo()).collect(Collectors.toList());
-		assertThat(to, hasItems(new ProjectModel("org.springframework", "spring-jcl", "5.1.3.RELEASE"),
-								  new ProjectModel("io.netty", "netty-buffer", "4.1.31.Final"),
-								  new ProjectModel("io.projectreactor", "reactor-core", "3.2.3.RELEASE"),
-								  new ProjectModel("io.reactivex.rxjava2", "rxjava", "2.2.4"),
-								  new ProjectModel("io.reactivex", "rxjava", "1.3.8"),
-								  new ProjectModel("net.sf.jopt-simple", "jopt-simple", "5.0.4"),
-								  new ProjectModel("org.aspectj", "aspectjweaver", "1.9.2"),
-								  new ProjectModel("org.jetbrains.kotlin", "kotlin-reflect", "1.2.71"),
-								  new ProjectModel("org.jetbrains.kotlin", "kotlin-stdlib", "1.2.71"),
-								  new ProjectModel("io.reactivex", "rxjava-reactive-streams", "1.2.1")));
+		List<ProjectModel> expected = Arrays.asList(new ProjectModel("org.springframework", "spring-jcl", "5.1.3.RELEASE"),
+													  new ProjectModel("io.netty", "netty-buffer", "4.1.31.Final"),
+													  new ProjectModel("io.projectreactor", "reactor-core", "3.2.3.RELEASE"),
+													  new ProjectModel("io.reactivex.rxjava2", "rxjava", "2.2.4"),
+													  new ProjectModel("io.reactivex", "rxjava", "1.3.8"),
+													  new ProjectModel("io.reactivex", "rxjava-reactive-streams", "1.2.1"),													  new ProjectModel("net.sf.jopt-simple", "jopt-simple", "5.0.4"),
+													  new ProjectModel("org.aspectj", "aspectjweaver", "1.9.2"),
+													  new ProjectModel("org.jetbrains.kotlin", "kotlin-reflect", "1.2.71"),
+													  new ProjectModel("org.jetbrains.kotlin", "kotlin-stdlib", "1.2.71"));
+		
+		assertIterableEquals(expected, to);
 	}
 
 	@Test
